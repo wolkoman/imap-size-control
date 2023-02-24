@@ -1,0 +1,17 @@
+{
+  "name": "mail-account",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/imap-simple": "^4.2.5",
+    "@types/mailparser": "^3.4.0",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.5.0"
+  }
+}
