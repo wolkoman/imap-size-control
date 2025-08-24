@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
+    "start": "node --loader ts-node/esm index.ts",
+    "dev": "node --loader ts-node/esm --watch index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,6 +15,12 @@
     "@types/imap-simple": "^4.2.5",
     "@types/mailparser": "^3.4.0",
     "imap-simple": "^5.1.0",
-    "mailparser": "^3.5.0"
+    "mailparser": "^3.5.0",
+    "postal-mime": "^2.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
   }
 }
